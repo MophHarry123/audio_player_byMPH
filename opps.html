@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .logo {
+            margin-bottom: 30px;
+        }
+
+        .logo img {
+            width: 150px;
+            height: auto;
+        }
+
+        .message {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .description {
+            font-size: 16px;
+            color: #777;
+            margin-bottom: 40px;
+        }
+
+        .button {
+            padding: 10px 20px;
+            background-color: #e62117;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #b31510;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="youtube_logo.png" alt="YouTube Logo">
+        </div>
+        <div class="message">Oops! Something went wrong.</div>
+        <div class="description">An error occurred while trying to access the requested page.</div>
+        <a href="#" class="button">Go back to MPH player</a>
+    </div>
+</body>
+</html>

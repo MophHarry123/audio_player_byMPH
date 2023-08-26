@@ -1,0 +1,154 @@
+
+
+ body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.al {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.songsby {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.Img {
+    margin-bottom: 20px;
+}
+
+.imgs {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.ctrl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.pp {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.vp {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.slid {
+    width: 100%;
+}
+
+.vol,
+.dur {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.volume,
+.Duration {
+    font-size: 14px;
+    margin: 0;
+}
+
+.slider1,
+.slider {
+    width: 100%;
+}
+
+.aud {
+    margin-top: 20px;
+}
+
+audio {
+    width: 100%;
+}
+
+
+.smooth-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.smooth-button:hover {
+    background-color: #333;
+}
+
+.smooth-button i {
+    margin-right: 5px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 200px;
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+.sidebar h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar a:hover {
+    background-color: #333;
+}
+    .content {
+        margin-left: 200px;
+        padding: 20px;
+    }

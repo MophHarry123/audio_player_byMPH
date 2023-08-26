@@ -1,0 +1,67 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+
+
+<div class="al">
+    <h3 class="songsby">Songs by BoyWithUke</h3>
+</div>
+
+<div class="all">
+
+    
+<div class="sidebar">
+    <h3>Navigation</h3>
+    <ul>
+        <li><a href="#" onclick="link()">Home</a></li>
+        <li><a href="#" onclick="link()">Songs</a></li>
+        <li><a href="#" onclick="link()">Artists</a></li>
+        <li><a href="#" onclick="link()">Playlists</a></li>
+    </ul>
+</div>
+
+
+    <div class="Img">
+        <img src="outofreach.png" alt="U are stupid!" srcset="" class="imgs">
+    </div>
+
+    <div class="ctrl">
+        <div class="pp">
+            <button id="playBtn" class="smooth-button"><i class="fas fa-play"></i> Play</button>
+            <button id="pauseBtn" class="smooth-button"><i class="fas fa-pause"></i> Pause</button>
+</div>        
+
+        <div class="vp">
+            <p id="currentPlayingTime"></p>
+            <p id="volumePercentage">100</p>
+        </div>
+
+        <div class="slid">
+            <div class="vol">
+                <p class="volume">Volume</p>
+                <input type="range" min="0" max="100" id="volumeSlider" class="slider1">
+            </div>
+
+            <div class="dur">
+                <p class="Duration">Duration</p>
+                <input type="range" min="0" id="durationSlider" class="slider">
+            </div>
+        </div>
+
+        <div class="aud">
+            <audio src="./song.mp3" id="songElement"></audio>
+        </div>
+    </div>
+</div>
+</body>
+<script src="script.js"></script>
+</html> 
+
