@@ -1,39 +1,4 @@
-// const audioElement1 = document.getElementById("audioElement1");
-// const audioElement2 = document.getElementById("audioElement2");
-// const audioElement3 = document.getElementById("audioElement3");
-// const audioElement4 = document.getElementById("audioElement4");
-// const audioElement5 = document.getElementById("audioElement5");
 
-
-// window.addEventListener("keydown",(event)=>
-// {
-// const typedChar = event.key;
-// if(typedChar==="a")
-// {
-
-//     audioElement1.play();
-// }
-
-// else if(typedChar==="s")
-// {
-//     audioElement2.play();
-// }
-// else if(typedChar==="d")
-// {
-//     audioElement3.play();
-// }
-// else if(typedChar==="f")
-// {
-//     audioElement4.play();
-// }
-// else if(typedChar==="g")
-// {
-//     audioElement5.play();
-// }
-
-
-
-// });
 
 const songElement = document.getElementById("songElement");
 const playBtn = document.getElementById("playBtn");
@@ -120,4 +85,10 @@ durationSlider.onchange = (event) =>
 function link() {
     window.location.href = "opps.html";
 }
+
+
+function link2() {
+    window.location.href = "idex.html";
+}
+
 
